@@ -1,7 +1,9 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
-array1 = [1,3,5,7,90,100]
-array2 = [2,4,90,84,85,86,87]
+array1 = [50, 98, 136, 166, 178,180,182]
+array2 = [24, 113, 159, 183,200]
+
+
 
 array1.sort()
 array2.sort()
@@ -43,5 +45,7 @@ while i <= len(array1)-1 and j <= len(array2)-1:
     if array1[i] == array2[j]:
         print("Diferencia minima: 0")
         break
-       
-    print("Diferencia minima: ", minDif)
+    
+print("Diferencia minima: ", minDif)    
+
+        
