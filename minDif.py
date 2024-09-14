@@ -1,7 +1,7 @@
 # Online Python compiler (interpreter) to run Python online.
 # Write Python 3 code in this online editor and run it.
-array1 = [1,6,80,78,7]
-array2 = [3,19,29,12,17,60,1000,82]
+array1 = [1,3,5,7,90,100]
+array2 = [2,4,90,84,85,86,87]
 
 array1.sort()
 array2.sort()
@@ -16,7 +16,6 @@ i = 0
 j = 0
 
 while i <= len(array1)-1 and j <= len(array2)-1:
-    
     
     if array1[i] > array2[j]:
         currentPointer = i 
@@ -38,14 +37,11 @@ while i <= len(array1)-1 and j <= len(array2)-1:
             dif * -1
         if dif < minDif:
             minDif = dif
-        if currentPointer - array2[i + 1] < currentPointer - array2[i]:
+        if currentPointer - array1[i + 1] < currentPointer - array1[i]:
             i += 1
-        
+            
     if array1[i] == array2[j]:
-        minDif == 0
-        print("Diferencia minima: ", minDif)
+        print("Diferencia minima: 0")
         break
-        
-    
-        
-print("Diferencia minima: ", minDif)
+       
+    print("Diferencia minima: ", minDif)
