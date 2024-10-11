@@ -1,5 +1,4 @@
-# Online Python compiler (interpreter) to run Python online.
-# Write Python 3 code in this online editor and run it.
+
 
 arreglo = [1,4,8,19,45,50]
 
@@ -25,8 +24,5 @@ elif arreglo[right] == k:
 else:
     print("-1")
     
-'''   
-if left == k:
-    print()
-'''  
+
  
